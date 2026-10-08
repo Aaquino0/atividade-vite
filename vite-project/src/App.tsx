@@ -5,9 +5,9 @@ function App() {
   return (
     <div>
       <Cabecalho />
-      <Cartao />
-      <Cartao />
-      <Cartao />
+      <Cartao numero={1} />
+      <Cartao numero={2} />
+      <Cartao numero={3} />
     </div>
   );
 }
